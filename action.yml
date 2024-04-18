@@ -13,5 +13,5 @@ outputs:
   sarifFile:
     description: A file path to a SARIF results file.
 runs:
-  using: 'node18'
+  using: 'node20'
   main: 'lib/action.js'
